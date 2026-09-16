@@ -35,3 +35,12 @@ const Arrowsum=(a,b)=>{
     return a+b;
 };
 s=Arrowsum(5,7);
+
+
+arr=["hello","bello","khello"];
+//for each function a higher order function
+
+//hiher order functions:- functions that uses other functions either take them as parameter or return them as output
+arr.forEach((val,idx,array)=>{
+ console.log(val,idx);
+});
