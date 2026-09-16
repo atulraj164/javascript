@@ -22,3 +22,11 @@ for(let i of arr){
     avg+=i;
 }
 console.log(`avg marks of arr=${avg/arr.length}`);
+
+
+function sum(a,b){
+    return a+b;
+}
+let s=sum(5,9);
+console.log(s);
+
