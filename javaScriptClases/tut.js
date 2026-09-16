@@ -30,3 +30,8 @@ function sum(a,b){
 let s=sum(5,9);
 console.log(s);
 
+//arraow function
+const Arrowsum=(a,b)=>{
+    return a+b;
+};
+s=Arrowsum(5,7);
