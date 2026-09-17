@@ -40,6 +40,28 @@ s=Arrowsum(5,7);
 arr=["hello","bello","khello"];
 //for each function a higher order function
 
+let square=(s)=>{
+    console.log(s*s);
+};
+arr.forEach(square);
+//more methods ->filter,map
+
+
+let arr2=arr.filter((val)=>{
+    return val%2==0;
+})
+console.log(arr2);
+
+arr2=arr.reduce((val1,val2)=>{
+        return val1+val2;
+})
+
+console.log(arr2);
+//window:-a global object provided by the browser to our project consist multiple methods and object like dom
+
+//Dom(document object model):-whenever a webpage is loaded browser create a dom object automaticaly insode window object
+  //           window->dom->html->body  manipulate html from js
+
 //hiher order functions:- functions that uses other functions either take them as parameter or return them as output
 arr.forEach((val,idx,array)=>{
  console.log(val,idx);
