@@ -61,7 +61,9 @@ console.log(arr2);
 
 //Dom(document object model):-whenever a webpage is loaded browser create a dom object automaticaly insode window object
   //           window->dom->html->body  manipulate html from js
-
+  let cl=document.getElementsByClassName("myclass");
+  console.dir(cl);
+  cl.quer
 //hiher order functions:- functions that uses other functions either take them as parameter or return them as output
 arr.forEach((val,idx,array)=>{
  console.log(val,idx);
