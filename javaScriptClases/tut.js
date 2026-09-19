@@ -68,3 +68,7 @@ console.log(arr2);
 arr.forEach((val,idx,array)=>{
  console.log(val,idx);
 });
+
+  
+  let bl=document.getElementById("byid");
+  console.dir(bl);
