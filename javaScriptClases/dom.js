@@ -40,3 +40,23 @@ let div=document.querySelectorAll(".h1div");
         i.innerText=`div ${idx}`;
         idx++;
     }
+let paragraph=document.querySelector("p");
+console.dir(paragraph.getAttribute("class"));
+paragraph.setAttribute("class","paragraph");
+console.dir(paragraph.getAttribute("class"));
+
+
+//adding new element
+
+let button=document.createElement("button");
+button.innerText="button";
+
+let divEle=document.querySelector("div");
+ divEle.append(button);
+
+ let heading=document.createElement("h3");
+ heading.innerText="this is new Element";
+
+ document.querySelector("div").append(heading);
+
+ 
